@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(162, 160, 160);
+}
+
+.borda{
+    border-width: 22px;
+    border-style: double;
+    Border-color: red;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    font-size: 18pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form input.caixa{
+    background-color:#f1ff00;
+    border-color: black;
+    border-width: 1px;
+    font-size: 15pt;
+    border: solid;
+}
+
+.centralizado{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

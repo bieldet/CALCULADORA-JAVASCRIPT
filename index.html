@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>execicio 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script>rdbOperacao</script>
+</head>
+<body>
+
+    <div class="centralizado">
+<form id="form" class="borda">
+
+<b>
+
+<label for="txtValor1">Valor 1:</label>
+<input type="text" name="txtValor1" id="txtValor1" class="caixa"/>
+
+<label for="txtValor2">Valor 2:</label>
+<input type="text" name="txtValor2" id="txtValor2" class="caixa"/>
+
+<br></br>
+
+<label for="Opções:">Opções:</label>    
+
+<br></br>
+</b>
+
+<input type="radio" name="rdbOperacao" id="rdbSoma" checked> 
+<label for="rdbSoma">Soma</label>
+
+<br>
+
+<input type="radio" name="rdbOperacao" id="rdbSub" checked> 
+<label for="rdbSub">Subtração</label>
+
+<br>
+
+<input type="radio" name="rdbOperacao" id="rdbMult" checked> 
+<label for="rdbMult">Multiplicação</label>
+
+<br> 
+
+<input type="radio" name="rdbOperacao" id="rdbDiv" checked> 
+<label for="rdbDiv">Divisão</label>
+
+<br></br>
+
+<label for="txtResult"><b>Resultado:</b></label>
+<input type="text" name="txtResult" id="txtResult" class="caixa" readonly>
+
+<br>
+</b>
+
+<button type="button" onclick="calcula()"> Calcular</button>
+</form>
+
+    </div>
+</body>
+</html>
